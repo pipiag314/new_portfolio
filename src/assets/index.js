@@ -43,6 +43,7 @@ import buttonComponent from "./button.png"
 import pingPongScorer from "./pingPongScorer.png";
 import whacAMole from "./whacAMole.png"
 import ticTacToe from "./ticTacToe.png"
+import linkedin from "./linkedin-logo.png"
 
 
 export {
@@ -85,4 +86,5 @@ export {
   pingPongScorer,
   whacAMole,
   ticTacToe,
+  linkedin,
 };
