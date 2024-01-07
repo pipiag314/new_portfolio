@@ -23,7 +23,7 @@ const About = () => {
         impactful web experiences.
       </motion.p>
 
-      <motion.div className="mt-5 flex gap-5 pl-5">
+      <motion.div className="mt-5 flex gap-5 pl-5" variants={textVariant()}>
         <a href="https://github.com/pipiag314" target="_blank">
           <img src={github} alt="github logo" className="w-[60px] h-[60px]" />
         </a>
@@ -35,7 +35,7 @@ const About = () => {
           />
         </a>
         <button className="text-lg font-bold border-2 rounded-[100px] px-4 py-2 hover:text-primary hover:bg-secondary transition-all duration-200">
-          <a href="./gelapipiacv.pdf" download="Gela Pipia CV">
+          <a href="./gelapipiaCV.pdf" download="Gela Pipia CV">
             Download My CV
           </a>
         </button>
