@@ -8,21 +8,15 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
-  docker,
   meta,
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
   nike_clone,
   rate_movie_app,
   todo_list_app,
@@ -32,6 +26,7 @@ import {
   pingPongScorer,
   whacAMole,
   ticTacToe,
+  ecommerceMern
 } from "../assets";
 
 export const navLinks = [
@@ -168,6 +163,32 @@ const experiences = [
 
 const projects = [
   {
+    name: "FULL-STACK Ecommerce App",
+    description: "Full-Stack Ecommerce app, where user is able to register/signin, buy products which are fetched from DB.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mongoDB",
+        color: "green-text-gradient",
+      },
+    ],
+    image: ecommerceMern,
+    source_code_link:
+      "https://github.com/pipiag314/mern-ecommerce",
+    live_preview_link: "https://my-ecommerce-mern.onrender.com/",
+  },
+  {
     name: "Nike Clone",
     description: "Nike website clone, fully responsive with all devices",
     tags: [
@@ -176,7 +197,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "nodejs",
         color: "green-text-gradient",
       },
     ],

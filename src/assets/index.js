@@ -26,10 +26,6 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-
 import logoColor from "./logo-color.png"
 
 import live from "./live.png"
@@ -44,7 +40,7 @@ import pingPongScorer from "./pingPongScorer.png";
 import whacAMole from "./whacAMole.png"
 import ticTacToe from "./ticTacToe.png"
 import linkedin from "./linkedin-logo.png"
-
+import ecommerceMern from "./ecommerce-mern.png"
 
 export {
   logo,
@@ -56,7 +52,6 @@ export {
   menu,
   close,
   css,
-  docker,
   figma,
   git,
   html,
@@ -64,17 +59,12 @@ export {
   mongodb,
   nodejs,
   reactjs,
-  redux,
   tailwind,
   typescript,
-  threejs,
   meta,
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
   logoColor,
   live,
   nike_clone,
@@ -87,4 +77,5 @@ export {
   whacAMole,
   ticTacToe,
   linkedin,
+  ecommerceMern
 };
