@@ -1,4 +1,4 @@
-import { ComputerCanvas } from "./canvas/computer";
+import { ComputerCanvas } from "./canvas/Computer";
 import { motion } from "framer-motion"
 import { useContext } from "react";
 import { MobileContext } from "../context/MobileContext";
