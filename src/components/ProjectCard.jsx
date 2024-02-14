@@ -6,7 +6,7 @@ import { github, live } from "../assets";
 
 const ProjectCard = ({ project, index }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <div>
         <Tilt
             options={{
                 max: 45,
@@ -53,7 +53,7 @@ const ProjectCard = ({ project, index }) => {
             </div>
             
         </Tilt>
-    </motion.div>
+    </div>
   )
 }
 export default ProjectCard

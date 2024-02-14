@@ -8,14 +8,13 @@ import ProjectCard from "./ProjectCard";
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <div>
         <p className="sectionSubText">Projects i've done</p>
         <h2 className="sectionHeadText">Projects</h2>
-      </motion.div>
+      </div>
 
       <div className="w-full flex">
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
+        <p
           className="mt-3 text-secondary text-[17px] max-w-4xl leading-[30px]">
           The "Projects" section of my front-end portfolio website serves as a
           dynamic showcase of my proficiency and creativity in web development.
@@ -29,7 +28,7 @@ const Works = () => {
           projects, delve into the code repositories on GitHub, and witness the
           evolution of my abilities as a passionate and dedicated front-end
           developer.
-        </motion.p>
+        </p>
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">
