@@ -25,13 +25,13 @@ const About = () => {
 
       <motion.div className="mt-5 flex gap-5 pl-5" variants={textVariant()}>
         <a href="https://github.com/pipiag314" target="_blank">
-          <img src={github} alt="github logo" className="w-[60px] h-[60px]" />
+          <img src={github} alt="github logo" className="w-[60px] h-[60px] object-contain" />
         </a>
         <a href="https://www.linkedin.com/in/gelapipia10/" target="_blank">
           <img
             src={linkedin}
             alt="linkedin logo"
-            className="w-[60px] h-[60px]"
+            className="w-[60px] h-[60px] object-contain"
           />
         </a>
         <button className="text-lg font-bold border-2 rounded-[100px] px-4 py-2 hover:text-primary hover:bg-secondary transition-all duration-200">
